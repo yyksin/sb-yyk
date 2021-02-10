@@ -10,15 +10,8 @@ public class WebController {
     @GetMapping("/")
     @ResponseBody
     public String main() {
-        String html = getLink("infoq.com");
-        html += getLink("11st.co.kr");
-        return html;
+        return "<a href=\"https://infoq.com\">infoq.com</a>";
     }
-
-    private String getLink(String site) {
-        return "<a href=\"https://" + site + "\">" + site + "</a><br>";
-    }
-
     @PostMapping("/")
     @ResponseBody
     public String mainPost() {
