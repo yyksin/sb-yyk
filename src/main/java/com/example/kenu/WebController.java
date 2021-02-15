@@ -10,11 +10,7 @@ public class WebController {
     @GetMapping("/")
     @ResponseBody
     public String main() {
-        return "<a href=\"https://infoq.com\">infoq.com</a>";
-    }
-    @PostMapping("/")
-    @ResponseBody
-    public String mainPost() {
-        return "<a href=\"https://infoq.com\">infoq.com</a>";
+        return "<a href=\"https://infoq.com\">infoq.com</a><br>" +
+          "<a href=\"https://okdevtv.com\">okdevtv.com</a>";
     }
 }
