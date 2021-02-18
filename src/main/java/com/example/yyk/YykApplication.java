@@ -1,14 +1,13 @@
-package com.example.kenu;
+package com.example.yyk;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class KenuApplication {
+public class YykApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KenuApplication.class, args);
+        SpringApplication.run(YykApplication.class, args);
     }
 
 }
